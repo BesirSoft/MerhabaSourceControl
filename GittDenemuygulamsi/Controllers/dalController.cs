@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GittDenemuygulamsi.Controllers
 {
-    public class UserController : Controller
+    public class dalController : Controller
     {
         public IActionResult Index()
         {
@@ -14,11 +14,5 @@ namespace GittDenemuygulamsi.Controllers
         }
 
 
-
-
-        public IActionResult Index2()
-        {
-            return View();
-        }
     }
 }

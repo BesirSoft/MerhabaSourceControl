@@ -12,5 +12,7 @@ namespace GittDenemuygulamsi.Controllers
         {
             return View();
         }
+
+
     }
 }
